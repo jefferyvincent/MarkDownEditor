@@ -55,7 +55,7 @@
 24) Modify the package.manifest file:
 Refference: https://our.umbraco.com/documentation/extending/property-editors/package-manifest
 Example:
-`
+```
 {
   "propertyEditors": [
     {
@@ -75,28 +75,29 @@ Example:
     "~/App_Plugins/MarkDownEditor/MarkDownEditor.styles.css"
   ]
 }
-`
+```
 25) Modify the HTML file.
 
 Example:
-`
+```
 <div ng-controller="markDownController" class="markDownController ng-scope">
     <p>My Mark Down Editor</p>
 </div>
-`
+```
 26) Modify the JavaScript file.
 
 Example:
+```
 function markDownEditor($scope, $http, $window) {
 
 }
-
+```
 angular.module('umbraco').controller('markDownEditor', markDownEditor);
 
 27) Get the App_Plugins class library to copy over to the .WEB folder:
   	- Right click on the .Web project > Properties > Compile > Build Events
 	- Paste in the following code in the Post-build event Command Line:
-	`xcopy "C:\projects\MarkDownEditor\MarkDownEditor\App_Plugins\*" "$(ProjectDir)App_Plugins\" /Y /S /D `
+	```xcopy "C:\projects\MarkDownEditor\MarkDownEditor\App_Plugins\*" "$(ProjectDir)App_Plugins\" /Y /S /D ```
 	- Click OK
 	- Click Save All
 28) Build > Rebuild Solution
