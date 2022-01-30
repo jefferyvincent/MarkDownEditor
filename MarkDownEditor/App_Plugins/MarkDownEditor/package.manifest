@@ -1,0 +1,19 @@
+﻿{
+  "propertyEditors": [
+    {
+      "alias": "MarkDownEditor",
+      "name": "Mark Down Editor",
+      "icon": "icon-smiley-inverted",
+      "group": "media",
+      "editor": {
+        "view": "~/App_Plugins/MarkDownEditor/MarkDownEditor.html"
+      }
+    }
+  ],
+  "javascript": [
+    "~/App_Plugins/MarkDownEditor/MarkDownEditor.controller.js"
+  ],
+  "css": [
+    "~/App_Plugins/MarkDownEditor/MarkDownEditor.styles.css"
+  ]
+}
