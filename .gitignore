@@ -2,4 +2,15 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
+/MarkDownEditor/obj
+/MarkDownEditor.Web/App_Data/cache
+/MarkDownEditor.Web/App_Data/Logs
+/MarkDownEditor.Web/App_Data/Models
+/MarkDownEditor.Web/App_Data/packages/installed
+/MarkDownEditor.Web/App_Data/TEMP
+/MarkDownEditor.Web/App_Data/NuGetBackup
+/MarkDownEditor.Web/bin
+/MarkDownEditor.Web/obj
+/MarkDownEditor.Web/Umbraco
+/MarkDownEditor.Web/packages
 /MarkDownEditor.Web/.vs/MarkDownEditor
