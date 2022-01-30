@@ -46,11 +46,11 @@
 	- Click Add
 22) Add a CSS file inside the css folder:
 	- Add > New Item > Web > Style Sheet
-	- Name it the <package name>.styles.css ( Could be a better way?)
+	- Name it the (package name).styles.css ( Could be a better way?)
 	- Click Add
 23) Add a JS file inside the js folder:
 	- Add > New Item > Web > JavaScript File
-	- Name it the <package name>.controller.js ( Could be a better way?)
+	- Name it the (package name).controller.js ( Could be a better way?)
 	- Click Add
 24) Modify the package.manifest file:
 Refference: https://our.umbraco.com/documentation/extending/property-editors/package-manifest
