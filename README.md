@@ -6,7 +6,7 @@
 	- Give it a project name with a .Web (example: MarkDownEditor.Web)
 	- Set the location of the git repo
 	- Make sure the famework is .NET Framework 4.5.2
-4) In Visual Studio 2019 open up neget package manger console (Tools > Nuget Package Manager > Package Manager Console)
+4) In Visual Studio 2019 open up nuget package manger console (Tools > Nuget Package Manager > Package Manager Console)
 5) Type in: Install-Package UmbracoCms -Version 7.15.1
 6) Once Umbraco 7 is done installing:
 	- Build >  Rebuild Solution
